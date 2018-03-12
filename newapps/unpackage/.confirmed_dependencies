@@ -1,0 +1,43 @@
+{
+  "index.html": {
+    "resources": [
+      "template/about.html"
+    ],
+    "refer": [
+      "template/setting.html",
+      "template/chatmain.html",
+      "template/contact.html",
+      "template/about.html",
+      "template/login.html"
+    ]
+  },
+  "template/chatmain.html": {
+    "resources": [
+      "template/chat.html"
+    ],
+    "refer": [
+      "template/chat.html"
+    ]
+  },
+  "template/setting.html": {
+    "refer": [
+      "template/login.html",
+      "template/myself.html"
+    ],
+    "resources": []
+  },
+  "template/login.html": {
+    "refer": [
+      "template/about.html",
+      "template/reg.html",
+      "template/forget_password.html",
+      "index.html"
+    ],
+    "resources": []
+  },
+  "template/chat.html": {
+    "refer": [
+      "template/detail.html"
+    ]
+  }
+}

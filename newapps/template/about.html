@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/app.css" />
+		<!--<link rel="stylesheet" href="../css/swiper-3.4.0.min.css" />-->
+		<script src="../js/mui.min.js"></script>
+<!--		<script type="text/javascript" src="js/swiper-3.4.0.min.js" ></script>-->
+		<script src="../js/tools.js" ></script>
+		<style>
+			html,body {
+				background-color: #efeff4;
+				font-family: "微软雅黑";
+				font-size: 12px;
+			}
+			.title a{
+				font-size: 14px;
+				color: black;
+			}
+			.swiper-container {
+				height: 180px;
+			}
+			.swiper-container img {
+				height: 180px;
+				width: 100%;
+			}
+			.swiper-pagination {
+				margin-bottom: 5px;
+			};
+			table {
+				width:100%;
+				
+				margin: 0 auto;
+			}
+			table tr{
+				text-align: center;
+				width:100%
+			}
+			table tr th,table tr td{
+				width:12.5%
+			}
+			table tr div{
+				border-radius: 10px;
+				padding: 1rem 0;
+				color: #FFFFFF;
+			}
+			.bgcolors_red{
+				background: #DD524D;
+			}
+			.bgcolors_green{
+				background: #4CD964;
+			}
+			.bgcolors_pink{
+				background: #8A6DE9;
+			}
+			.mui-bar{
+				background: #007AFF;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">课表</h1>
+		</header>
+	
+
+<table class="course_table" style="margin-top: 54px;border:1" border=1>
+	<thead>
+        <tr>
+        	<th>time</th>
+        	<th>周一</th>
+        	<th>周二</th>
+        	<th>周三</th>
+        	<th>周四</th>
+        	<th>周五</th>
+        	<th>周六</th>
+        	<th>周日</th>
+        </tr>
+    </thead>
+    <tbody id="course_html" >
+        <tr>
+            <td rowspan="">第一节</td>
+            <td rowspan="4"><div id="1_1"></div></td>
+            <td rowspan="4"><div id="2_1"></div></td>
+            <td rowspan="4"><div id="3_1"></div></td>
+            <td rowspan="4"><div id="4_1"></div></td>
+            <td rowspan="4"><div id="5_1"></div></td>
+            <td rowspan="4"><div id="6_1"></div></td>
+            <td rowspan="4"><div id="7_1"></div></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>8:30-10:10</td>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+         <tr>
+            <td rowspan="">第二节</td>
+            <td rowspan="4"><div  id="1_2"></div></td>
+            <td rowspan="4"><div  id="2_2" ></div></td>
+            <td rowspan="4"><div  id="3_2"></div></td>
+            <td  rowspan="4"><div id="4_2" ></div></td>
+            <td rowspan="4" ><div id="5_2"></div></td>
+            <td rowspan="4"><div  id="6_2" ></div></td>
+        	<td rowspan="4"><div  id="7_2"></div></td>
+         </tr>
+        <tr>
+
+            
+        </tr>
+        <tr>
+            <td>10:30-12:10</td>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td colspan="7">午休 12:10-14:30</td> 
+        </tr>
+          <tr>
+            <td rowspan="">第三节</td>
+            <td rowspan="4"><div id="1_3"></div></td>
+            <td rowspan="4"><div id="2_3"></div></td>
+            <td rowspan="4"><div id="3_3"></div></td>
+            <td rowspan="4"><div id="4_3"></div></td>
+            <td rowspan="4"><div id="5_3"></div></td>
+            <td rowspan="4"><div id="6_3"></div></td>
+       		<td rowspan="4"><div id="7_3"></div></td>
+          </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td>12:30-14:10</td>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+         <tr>
+            <td rowspan="">第四节</td>
+            <td rowspan="4"><div id="1_4"></div></td>
+            <td rowspan="4"><div id="2_4"></div></td>
+            <td rowspan="4"><div id="3_4"></div></td>
+            <td rowspan="4"><div id="4_4"></div></td>
+            <td rowspan="4"><div id="5_4"></div></td>
+            <td rowspan="4"><div id="6_4"></div></td>
+       		<td rowspan="4"><div id="7_4"></div></td>
+         </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td>14:10-17:30</td>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td colspan="7">晚自习</td> 
+        </tr>
+          <tr>
+            <td rowspan="">第五节</td>
+            <td  rowspan="4"><div id="1_5"></div></td>
+            <td  rowspan="4"><div id="2_5"></div></td>
+            <td  rowspan="4"><div id="3_5"></div></td>
+            <td  rowspan="4"><div id="4_5"></div></td>
+            <td  rowspan="4"><div id="5_5"></div></td>
+            <td  rowspan="4"><div id="6_5"></div></td>
+            <td  rowspan="4"><div id="7_5"></div></td>
+        </tr>
+        <tr>
+            
+        </tr><tr>
+            <td>19:00-21:00</td>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+    </tbody>
+</table>
+	</body>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script>
+	function launchScreen() {
+		//读取本地存储，检查是否为首次启动
+		var showGuide = plus.storage.getItem("lauchFlag");
+		if(showGuide){
+			//有值，说明已经显示过了，无需显示；
+			//关闭splash页面；
+			plus.navigator.closeSplashscreen();
+			plus.navigator.setFullscreen(false);
+		}else{
+			//显示启动导航
+			mui.openWindow({
+				id:'guide',
+				url:'guide.html',
+				show:{
+					aniShow:'none'
+				},
+				waiting:{
+					autoShow:false
+				}
+			});
+		}
+	}
+//	$.get("../data/allData.json", function(data){
+//	console.log(data);
+//			if(data.id==1){
+//				data=data.data;
+//				
+//				$.map(data, function(item) {
+//					console.log(item.literid)
+//					$("#"+item.literid).html(item.subject+"@"+item.teacher+"-"+item.room+"-"+item.time).addClass(item.color)
+//				});
+//				
+//			}
+//});
+	mui.getJSON("../data/allData.json",{},
+				function(data){
+					console.log(data);
+			if(data.id==1){
+				data=data.data;
+				async:true;
+				$.map(data, function(item) {
+					console.log(item.literid)
+					$("#"+item.literid).append(item.subject+"@"+item.teacher+"-"+item.room+"-"+item.time).addClass(item.color);
+				});
+				
+			}
+		}
+	);
+	</script>
+</html>

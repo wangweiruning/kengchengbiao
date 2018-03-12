@@ -1,0 +1,189 @@
+{
+    "id": 1,
+    "data": [
+        {
+            "literid": "1_1",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "1_2",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "1_6",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_pink"
+        },
+        {
+            "literid": "1_7",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "2_2",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_pink"
+        },
+        {
+            "literid": "2_3",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "2_4",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_pink"
+        },
+        {
+            "literid": "3_1",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_pink"
+        },
+        {
+            "literid": "3_6",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "3_5",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "4_2",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_pink"
+        },
+        {
+            "literid": "4_5",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "4_1",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "4_4",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "5_1",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "5_2",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "5_4",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "5_3",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "6_2",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "6_3",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_red"
+        },
+        {
+            "literid": "6_5",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        },
+        {
+            "literid": "7_3",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_pink"
+        },
+        {
+            "literid": "7_5",
+            "subject": "大学物理",
+            "teacher": "张扬(讲师)",
+            "time": "[1-6周]",
+            "room": "格致楼-430",
+            "color": "bgcolors_green"
+        }
+    ]
+}
